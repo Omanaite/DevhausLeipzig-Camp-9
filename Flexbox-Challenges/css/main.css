@@ -25,10 +25,58 @@
          url('/Flexbox-Challenges/assets/Fonts/inter-v12-latin/inter-v12-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
 }
 
+header{
+    background-color: #882EDF;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    color: #EDEDED;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 15px;
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: #882EDF;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    color: #EDEDED;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 15px;
+    margin-top: 2rem;
+}
+
+header div,
+footer div{
+    margin-left: 5rem;
+}
+
+footer div{
+    border: 5px solid #000000;
+    border-radius: 2rem;
+    width: max-content;
+    padding: .75rem .75rem;
+    background-color: black;
+}
+
+footer a{
+    text-decoration: none;
+    color: #EDEDED;
+    margin: .5rem .5rem;
+}
+
 .cards-wrapper{
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    place-content: center;
 }
 
 .card-container{
