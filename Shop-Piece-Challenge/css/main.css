@@ -35,3 +35,318 @@ main{
     line-height: 24px;
     color: #777B85;
 }
+
+.top__spotlight{
+    position: relative; 
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top__spotlight::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url(/Shop-Piece-Challenge/images/Rectangle1.svg);
+    background-size: cover;
+    background-position: center;
+    opacity: .35;
+    filter: contrast(1.75);
+}
+
+.top__spotlight h1{
+    position: relative;
+    padding-top: 13.188rem;
+    padding-bottom: 0.75rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top__spotlight p {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 939px;
+    height: 58px;
+}
+
+.top__spotlight button{
+    position: relative;
+    background: #5046E5;
+    border-radius: 8px;
+    width: 457px;
+    height: 63px;
+    margin-top: 2.063rem;
+    margin-bottom: 15.375rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mid{
+    background-color: #FFFFFF;
+    padding:  7.5rem 3rem;
+}
+
+.mid__header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.5rem;
+}
+
+.mid__header>div:nth-child(2){
+    display: flex;
+}
+
+.mid__header>div:nth-child(2)>div:nth-child(2){
+    height: 24px;
+    width: 24px;
+    padding-left: 0.688rem;
+}
+
+.header__wrapper h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #222832;
+}
+
+.mid__header>div:nth-child(2){
+    place-self: self-end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5046E5;
+}
+
+.mid__content{
+    display: flex;
+    gap: 3rem;
+    justify-content:space-between;
+}
+
+.product__img{
+    min-width: 300px;
+    min-height: 340px;
+    max-width: 300px;
+    max-height: 340px;
+}
+
+.mid__content>.content__product:nth-child(1)>.product__img{
+    background-image: url(/Shop-Piece-Challenge/images/Product-1.png);
+}
+
+.mid__content>.content__product:nth-child(2)>.product__img{
+    background-image: url(/Shop-Piece-Challenge/images/Product-2.png);
+}
+
+.mid__content>.content__product:nth-child(3)>.product__img{
+    background-image: url(/Shop-Piece-Challenge/images/Product-3.png);
+}
+
+.mid__content>.content__product:nth-child(4)>.product__img{
+    background-image: url(/Shop-Piece-Challenge/images/Product-4.png);
+}
+
+.product__tittle{
+    padding-top: 1.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222832;
+}
+
+.product__description{
+    padding: .5rem 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #777B85;
+}
+
+.product__price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222832;
+}
+
+.bot__info{
+    background: #F9FAFC;
+    border-top: 1px solid rgba(119, 123, 133, 0.4);
+    display: flex;
+    place-content: center;
+    padding: 7.5rem 0;
+}
+
+.bot__info>div:nth-child(2){
+    padding: 0 5.188rem;
+}
+
+.bot__info-tittle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #222832;
+}
+
+.bot__info-description{
+    width: 393px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #777B85;
+}
+
+.image-wrapper{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    background-size:contain;
+}
+
+.bot__info>div:nth-child(1)>div:first-child{
+    background-image: url(/Shop-Piece-Challenge/images/t-shirt.png);
+
+}
+.bot__info>div:nth-child(2)>div:first-child{
+    background-image: url(/Shop-Piece-Challenge/images/calendar.png);
+}
+.bot__info>div:nth-child(3)>div:first-child{
+    background-image: url(/Shop-Piece-Challenge/images/planet.png);
+}
+
+.bot__info-tittle{
+    padding-top: 3rem;
+    padding-bottom: 0.75rem;
+}
+
+.footer-1{
+    display: flex;
+    background: #F9FAFC;
+    border-top: 1px solid rgba(119, 123, 133, 0.4);
+    padding: 7.5rem 3rem;
+    place-content: center;
+}
+
+.footer-1__tittle-group{
+    padding-bottom: 2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222832;
+}
+
+.footer-1>div>ul,
+.footer-1>div:nth-child(4)>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #777B85;
+}
+
+.footer-1>div:nth-child(4)>div:nth-child(3){
+    padding-top: 1.5rem;
+}
+
+.footer-1>div:nth-child(4)>div:nth-child(3)>input{
+    width: 333px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #777B85;
+    border-radius: 8px;
+    margin-right: 1.5rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-1>div:nth-child(4)>div:nth-child(3)>button{
+    width: 167px;
+    height: 60px;
+    background: #5046E5;
+    border: 1px solid #777B85;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer-1>div:nth-child(4){
+    padding-left: 8.813rem;
+}
+
+.footer-1>div:nth-child(3){
+    padding-left: 6.25rem;
+}
+
+.footer-1>div:nth-child(2){
+    padding-left: 8.438rem;
+}
+
+.footer-2{
+    height: 120px;
+    background: #F9FAFC;
+    border-top: 1px solid rgba(119, 123, 133, 0.4);
+}
+
+.footer-2 div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #777B85;
+    padding: 3rem 0;;
+}
