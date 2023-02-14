@@ -1,0 +1,27 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.margin-auto {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.mono-space {
+  font-family: monospace;
+}
+
+.background-image {
+  background-image: url(https://user-images.githubusercontent.com/65357821/82758846-0394c180-9e0f-11ea-8b02-51f885eff3f5.png);
+  background-size: cover;
+  background-position-x: 50%;
+}
+
+.large-font {
+  font-size: 1.5em;
+}

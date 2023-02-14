@@ -1,0 +1,28 @@
+body {
+  font-family: monospace , sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  background-color: none;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+.controls {
+  max-width: 1000px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+main {
+  flex-grow: 1;
+}

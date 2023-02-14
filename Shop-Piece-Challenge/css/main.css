@@ -12,7 +12,8 @@ main{
     padding: 0 3rem;
 }
 
-.nav-bar div{
+.nav-bar div,
+.footer-1>div:nth-child(4)>div:nth-child(3){
     display: flex;
 }
 
@@ -53,7 +54,7 @@ main{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Rectangle1.svg);
+    background-image: url(/Shop-Piece-Challenge/images/Rectangle1.svg);
     background-size: cover;
     background-position: center;
     opacity: .35;
@@ -88,12 +89,11 @@ main{
     height: 58px;
 }
 
-.top__spotlight button{
+.top__spotlight a{
     position: relative;
     background: #5046E5;
     border-radius: 8px;
     width: 457px;
-    height: 63px;
     margin-top: 2.063rem;
     margin-bottom: 15.375rem;
     font-family: 'Inter';
@@ -103,6 +103,7 @@ main{
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+    padding: 1.063rem 0;
 }
 
 .mid{
@@ -120,10 +121,8 @@ main{
     display: flex;
 }
 
-.mid__header>div:nth-child(2)>div:nth-child(2){
-    height: 24px;
-    width: 24px;
-    padding-left: 0.688rem;
+.collection-row{
+    padding-left: 0.875rem;
 }
 
 .header__wrapper h2{
@@ -134,6 +133,10 @@ main{
     line-height: 44px;
     text-align: center;
     color: #222832;
+}
+
+.mid__header a{
+    text-decoration: none;
 }
 
 .mid__header>div:nth-child(2){
@@ -161,19 +164,19 @@ main{
 }
 
 .mid__content>.content__product:nth-child(1)>.product__img{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-1.png);
+    background-image: url(/Shop-Piece-Challenge/images/Product-1.png);
 }
 
 .mid__content>.content__product:nth-child(2)>.product__img{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-2.png);
+    background-image: url(/Shop-Piece-Challenge/images/Product-2.png);
 }
 
 .mid__content>.content__product:nth-child(3)>.product__img{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-3.png);
+    background-image: url(/Shop-Piece-Challenge/images/Product-3.png);
 }
 
 .mid__content>.content__product:nth-child(4)>.product__img{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-4.png);
+    background-image: url(/Shop-Piece-Challenge/images/Product-4.png);
 }
 
 .product__tittle{
@@ -247,14 +250,14 @@ main{
 }
 
 .bot__info>div:nth-child(1)>div:first-child{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/t-shirt.png);
+    background-image: url(/Shop-Piece-Challenge/images/t-shirt.png);
 
 }
 .bot__info>div:nth-child(2)>div:first-child{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/calendar.png);
+    background-image: url(/Shop-Piece-Challenge/images/calendar.png);
 }
 .bot__info>div:nth-child(3)>div:first-child{
-    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/planet.png);
+    background-image: url(/Shop-Piece-Challenge/images/planet.png);
 }
 
 .bot__info-tittle{
@@ -307,10 +310,12 @@ main{
     padding: 0;
     box-sizing: border-box;
 }
+.footer-1>div:nth-child(4)>div:nth-child(3){
+    align-items: center;
+}
 
 .footer-1>div:nth-child(4)>div:nth-child(3)>a{
     width: 167px;
-    height: 60px;
     background: #5046E5;
     border: 1px solid #777B85;
     border-radius: 8px;
@@ -320,6 +325,9 @@ main{
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
 }
 
 .footer-1>div:nth-child(4){
@@ -349,4 +357,83 @@ main{
     text-align: center;
     color: #777B85;
     padding: 3rem 0;;
+}
+
+/*===================
+  =TRENDING PRODUCTS=
+  ===================*/
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.tittle-trend{
+    padding-top: 3.75rem;
+    padding-left: 3rem;
+}
+
+.tittle-trend h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #222832;
+}
+
+.tittle-trend p{
+    width: 541px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #777B85;
+    padding-top: 1.125rem;
+    padding-bottom: 3.75rem;
+}
+
+.mid__header-trend{
+    display: flex;
+    flex-direction: column;
+}
+
+.mid__header-trend>div:nth-child(1){
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #777B85;
+}
+
+.mid__header-trend>div:nth-child(1)>div{
+    display: flex;
+    place-content: center;
+}
+
+.mid__header-trend>div:nth-child(1)>div:nth-child(1)>div:nth-child(3),
+.mid__header-trend>div:nth-child(1)>div:nth-child(2)>div:nth-child(2),
+.mid__header-trend>div:nth-child(1)>div:nth-child(3)>div:nth-child(2){
+    width: 24px;
+    height: 24px;
+    padding-left: 0.75rem;
+}
+
+.mid__header-trend>div:nth-child(1)>div:nth-child(2)>div:nth-child(1),
+.mid__header-trend>div:nth-child(1)>div:nth-child(3)>div:nth-child(1){
+    width: 24px;
+    height: 24px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.mid__header-trend>div:nth-child(1)>div:nth-child(1)>div>img,
+.mid__header-trend>div:nth-child(1)>div:nth-child(2)>div>img,
+.mid__header-trend>div:nth-child(1)>div:nth-child(3)>div>img{
+    padding: .516rem 0.281rem;
 }

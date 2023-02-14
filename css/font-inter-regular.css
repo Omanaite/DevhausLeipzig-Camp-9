@@ -1,26 +1,63 @@
+/*==============================================*/
+/*============DEVELOPMENT ROUTE=================*/
+/*==============================================*/
+
 /* inter-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.eot');
+  src: url('/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.woff2') format('woff2'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.woff') format('woff'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.ttf') format('truetype'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.svg#Inter') format('svg');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.eot');
+  src: url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.woff2') format('woff2'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.woff') format('woff'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.ttf') format('truetype'),
+       url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.svg#Inter') format('svg');
+}
+
+
+/*==============================================*/
+/*===============GIT PAGES ROUTE================*/
+/*==============================================*/
+
+/*
+@font-face {
+    font-display: swap; 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.eot'); /* IE9 Compat Modes */
-    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.eot');
+    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.woff2') format('woff2'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.woff') format('woff'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.ttf') format('truetype'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-regular.svg#Inter') format('svg');
 }
-  /* inter-700 - latin */
+
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.eot'); /* IE9 Compat Modes */
-    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.svg#Inter') format('svg'); /* Legacy iOS */
+    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.eot');
+    src: url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.eot?#iefix') format('embedded-opentype'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.woff2') format('woff2'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.woff') format('woff'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.ttf') format('truetype'),
+         url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.svg#Inter') format('svg');
 }
+*/
