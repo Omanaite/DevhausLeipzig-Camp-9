@@ -54,7 +54,7 @@ main{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-image: url(/Shop-Piece-Challenge/images/Rectangle1.svg);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Rectangle1.svg);
     background-size: cover;
     background-position: center;
     opacity: .35;
@@ -164,19 +164,19 @@ main{
 }
 
 .mid__content>.content__product:nth-child(1)>.product__img{
-    background-image: url(/Shop-Piece-Challenge/images/Product-1.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-1.png);
 }
 
 .mid__content>.content__product:nth-child(2)>.product__img{
-    background-image: url(/Shop-Piece-Challenge/images/Product-2.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-2.png);
 }
 
 .mid__content>.content__product:nth-child(3)>.product__img{
-    background-image: url(/Shop-Piece-Challenge/images/Product-3.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-3.png);
 }
 
 .mid__content>.content__product:nth-child(4)>.product__img{
-    background-image: url(/Shop-Piece-Challenge/images/Product-4.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/Product-4.png);
 }
 
 .product__tittle{
@@ -250,14 +250,14 @@ main{
 }
 
 .bot__info>div:nth-child(1)>div:first-child{
-    background-image: url(/Shop-Piece-Challenge/images/t-shirt.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/t-shirt.png);
 
 }
 .bot__info>div:nth-child(2)>div:first-child{
-    background-image: url(/Shop-Piece-Challenge/images/calendar.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/calendar.png);
 }
 .bot__info>div:nth-child(3)>div:first-child{
-    background-image: url(/Shop-Piece-Challenge/images/planet.png);
+    background-image: url(/DevhausLeipzig-Camp-9/Shop-Piece-Challenge/images/planet.png);
 }
 
 .bot__info-tittle{
