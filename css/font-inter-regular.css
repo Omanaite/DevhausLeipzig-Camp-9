@@ -2,7 +2,7 @@
 /*============DEVELOPMENT ROUTE=================*/
 /*==============================================*/
 
-/* inter-regular - latin 
+/*inter-regular - latin*/
 @font-face {
   font-display: swap;
   font-family: 'Inter';
@@ -28,13 +28,13 @@
        url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.ttf') format('truetype'),
        url('/assets/Fonts/inter-v12-latin/inter-v12-latin-700.svg#Inter') format('svg');
 }
-*/
+
 
 /*==============================================*/
 /*===============GIT PAGES ROUTE================*/
 /*==============================================*/
 
-
+/*
 @font-face {
     font-display: swap; 
     font-family: 'Inter';
@@ -60,3 +60,4 @@
          url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.ttf') format('truetype'),
          url('/DevhausLeipzig-Camp-9/assets/Fonts/inter-v12-latin/inter-v12-latin-700.svg#Inter') format('svg');
 }
+*/
