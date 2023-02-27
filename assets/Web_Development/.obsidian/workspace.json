@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dddc8fa364192427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/languages/JavaScript/Program Structure/JS - Functions/JS - Hoisting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md",
+                "file": "Frontend/languages/JavaScript/Program Structure/JS - Functions/JS - Hoisting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md",
+                "file": "Frontend/languages/JavaScript/Program Structure/JS - Functions/JS - Hoisting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md"
+                "file": "Frontend/languages/JavaScript/Program Structure/JS - Functions/JS - Hoisting.md"
               }
             }
           }
@@ -146,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8ee1ae622afa051",
+  "active": "dddc8fa364192427",
   "lastOpenFiles": [
     "Frontend/languages/Typescript/Program Structure/TS - Enums.md",
     "Frontend/languages/Typescript/Program Structure/TS - Arrays.md",
