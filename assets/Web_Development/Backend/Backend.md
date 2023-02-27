@@ -1,0 +1,1 @@
+The [[Backend]] is the part of the website that is not visible to the user. This includes the [[Server]] and [[Database]] that store the data and information that is displayed on the website. The backend is responsible for processing requests from the [[Frontend]] and returning the appropriate data or information. ^42c2f3

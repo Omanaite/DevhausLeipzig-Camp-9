@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "f9aad1d8f4765a5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a31552727659729",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8ee1ae622afa051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d532933bb947e49",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e84f87d442e3ec1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79379c40cf7de77c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1dec0c15981a7269",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0311083b49ce1cb1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff8c75ea02a2b791",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b5f9da9eff4187b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3821b118a45bc04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "63b3202d52f9bc8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b81571f156e2853c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "48bfea0c674e92f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b8ee1ae622afa051",
+  "lastOpenFiles": [
+    "Frontend/languages/Typescript/Program Structure/TS - Enums.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Arrays.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Narrowing.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Narrowing/TS - Type Predicates.md",
+    "Frontend/languages/Typescript/Typescript.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Interfaces.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Union Types.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Type Narrowing.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Intersection Types.md",
+    "Frontend/languages/Typescript/Program Structure/TS - Type Aliases.md"
+  ]
+}

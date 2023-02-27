@@ -1,0 +1,2 @@
+
+[[SEA]] (Search Engine Advertising) is the process of using paid advertising on search engines to promote a website or product. This is done by using keywords that are relevant to the website or product, and by bidding on those keywords to have your ad displayed in the search engine results pages. ^fbd70b
