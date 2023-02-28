@@ -1,9 +1,27 @@
 const personObject = {
-    "personName": "Franz Wollang",
-    "personEmail": "franz@example-email.com",
+    "personName": "Pablo Chandia",
+    "personEmail": "chandiapablo@outlook.com",
+    "streetAddress": "Palermo 559</br> Chillan, Chile",
+    "linkInstructions": "https://github.com/devhausleipzig/js-dom-practice-2",
 }
 
-const { personName, personEmail } = personObject; // destructuring assignment
+
+const { personName, personEmail, streetAddress, linkInstructions } = personObject; // destructuring assignment
+
+const navNodo = document.getElementById('nav-items');
+
+const newLi = document.createElement('li');
+newLi.setAttribute('id', 'instruction-li');
+
+const instructionAnchor = document.createElement('a');
+instructionAnchor.setAttribute('href', linkInstructions);
+instructionAnchor.setAttribute('id', 'linkId');
+
+
+newLi.appendChild(instructionAnchor);
+navNodo.appendChild(newLi);
+const anchorLink = document.getElementById('linkId');
+anchorLink.innerText = "INSTRUCTIONS HERE";
 
 /* Template blog post object
 {
@@ -58,7 +76,49 @@ function processContentBlocks(contentBlocks){
 // Add name and email to appropriate areas of website
 document.getElementById('myName').innerHTML = personName;
 document.getElementById('myEmail').innerHTML = personEmail;
+document.getElementById('streetAddress').innerHTML = streetAddress;
 document.getElementById('myEmail').setAttribute('href', `mailto:${personEmail}`);
+
+// Buscamos el botón en el DOM
+const addButton = document.querySelector('#add-btn');
+
+// Agregamos un evento click al botón
+addButton.addEventListener('click', ()=> {
+  // Creamos un nuevo elemento div
+  const newDiv = document.createElement('div');
+
+  // Creamos el elementoDespuesDe box-with-events
+  const elementoDespuesDe = document.getElementById('box-with-events');
+
+  // Agregamos insertAfter para el elemento add-btn
+  function insertAfter(newNode, referenceNode) {
+      referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+
+      // Agregamos un texto al nuevo elemento
+      newDiv.innerText = 'Nuevo elemento';
+  }
+  // Llamamos la funcion que inserta despues de un elemento
+  insertAfter(newDiv, elementoDespuesDe);   
+});
+
+// Buscamos el elemento en el DOM
+const box = document.querySelector('#box-with-events');
+
+// Agregamos un evento mouseenter al elemento
+box.addEventListener('mouseenter', ()=> {
+  // Cambiamos los márgenes y el relleno del elemento
+  box.style.margin = '20px';
+  box.style.padding = '20px';
+  document.getElementById('box-with-events').innerHTML = personName;
+});
+
+// Agregamos un evento mouseleave al elemento
+box.addEventListener('mouseleave', ()=> {
+  // Restauramos los márgenes y el relleno del elemento
+  box.style.margin = '10px';
+  box.style.padding = '10px';
+  document.getElementById('box-with-events').innerHTML = personEmail;
+});
 
 // create blog post elements
 let blogPostElements = [];

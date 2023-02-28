@@ -1,1 +1,0 @@
-[[UI]] is concerned with the visual design and layout of the website, and how it looks and feels to the user. ^2cc436
