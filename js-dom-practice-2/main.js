@@ -5,7 +5,6 @@ const personObject = {
     "linkInstructions": "https://github.com/devhausleipzig/js-dom-practice-2",
 }
 
-
 const { personName, personEmail, streetAddress, linkInstructions } = personObject; // destructuring assignment
 
 const navNodo = document.getElementById('nav-items');
