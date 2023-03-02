@@ -1,0 +1,305 @@
+html{
+    background-color: black;
+}
+
+body{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+/* ---------------GRID WRAPPER---------------*/
+.grid-wrapper-lvl1,
+.grid-wrapper-lvl2,
+.grid-wrapper-lvl3,
+.grid-wrapper-lvl4,
+.grid-wrapper-lvl5,
+.grid-wrapper-lvl6{
+    display: grid;
+    grid-gap: 20px;
+    width: 1280px;
+    height: 832px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border: solid 2px rgb(171, 0, 205);
+    box-sizing: border-box;
+}
+/* ---------------GRID WRAPPER M---------------*/
+.grid-wrapper-lvl2M,
+.grid-wrapper-lvl3M,
+.grid-wrapper-lvl4M,
+.grid-wrapper-lvl5M,
+.grid-wrapper-lvl6M{
+    display: grid;
+    grid-gap: 20px;
+    width: 390px;
+    height: 844px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border: solid 2px rgb(171, 0, 205);
+    box-sizing: border-box;    
+}
+/* ---------------GRID WRAPPER T---------------*/
+.grid-wrapper-lvl5T,
+.grid-wrapper-lvl6T{
+    display: grid;
+    grid-gap: 20px;
+    width: 834px;
+    height: 1194px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border: solid 2px rgb(171, 0, 205);
+    box-sizing: border-box;    
+}
+/* ---------------GRID ITEM---------------*/
+.grid__item{
+    background-color: #cbcbcb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---------------GRID TEMPLATE---------------*/
+.grid-wrapper-lvl1{
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+
+.grid-wrapper-lvl2{
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: auto;
+}
+
+.grid-wrapper-lvl3{
+
+}
+
+.grid-wrapper-lvl4{
+
+}
+/* ---------------GRID 3 PROPERTYS---------------*/
+.gi-lvl3-1 {
+    grid-area: 1 / 1 / span 1 / span 4;
+}
+
+.gi-lvl3-2 {
+    grid-area: 2 / 1 / span 30 / span 3;
+}
+
+.gi-lvl3-3 {
+    grid-area: 2 / 4 / span 30 / span 1;
+} 
+/* ---------------GRID 4 PROPERTYS---------------*/
+.gi-lvl4-1 {
+    grid-area: 1 / 1 / span 1 / span 5;
+}
+
+.gi-lvl4-2 {
+    grid-area: 2 / 1 / span 3 / span 4;
+}
+
+.gi-lvl4-3 {
+    grid-area: 5 / 1 / span 2 / span 2;
+}
+
+.gi-lvl4-4 {
+    grid-area: 5 / 3 / span 2 / span 2;
+}
+
+.gi-lvl4-5 {
+    grid-area: 2 / 5 / span 5 / span 1;
+}
+/* ---------------GRID 5 PROPERTYS---------------*/
+.gi-lvl5-1 {
+    grid-area: 1 / 1 / span 1 / span 6;
+}
+
+.gi-lvl5-2 {
+    grid-area: 2 / 2 / span 1 / span 4;
+}
+
+.gi-lvl5-3 {
+    grid-area: 2 / 1 / span 18 / span 1;
+}
+
+.gi-lvl5-4 {
+    grid-area: 3 / 2 / span 17 / span 4;
+}
+
+.gi-lvl5-5 {
+    grid-area: 2 / 6 / span 18 / span 1;
+}
+
+.gi-lvl5-6 {
+    grid-area: 20 / 1 / span 1 / span 6;
+}
+/* ---------------GRID 6 PROPERTYS---------------*/
+.gi-lvl6-1 {
+    grid-area: 1 / 1 / span 1 / span 7;
+}
+
+.gi-lvl6-2 {
+    grid-area: 2 / 1 / span 1 / span 7;
+}
+
+.gi-lvl6-3 {
+    grid-area: 3 / 1 / span 17 / span 1;
+}
+
+.gi-lvl6-4 {
+    grid-area: 3 / 2 / span 17 / span 6;
+}
+
+.gi-lvl6-5 {
+    grid-area: 20 / 1 / span 1 / span 1;
+}
+
+.gi-lvl6-6 {
+    grid-area: 20 / 2 / span 1 / span 6;
+}
+/* ---------------GRID 2M PROPERTYS---------------*/
+.gi-lvl2M-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.gi-lvl2M-2 {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+/* ---------------GRID 3M PROPERTYS---------------*/
+.gi-lvl3M-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.gi-lvl3M-2 {
+    grid-area: 2 / 1 / span 18 / span 1;
+}
+
+.gi-lvl3M-3 {
+    grid-area: 20 / 1 / span 1 / span 1;
+}
+/* ---------------GRID 4M PROPERTYS---------------*/
+.gi-lvl4M-1 {
+    grid-area: 1 / 1 / span 1 / span 2;
+}
+
+.gi-lvl4M-2 {
+    grid-area: 2 / 1 / span 17 / span 2;
+}
+
+.gi-lvl4M-3 {
+    grid-area: 19 / 1 / span 1 / span 1;
+}
+
+.gi-lvl4M-4 {
+    grid-area: 19 / 2 / span 1 / span 1;
+}
+
+.gi-lvl4M-5 {
+    grid-area: 20 / 1 / span 1 / span 2;
+}
+/* ---------------GRID 5M PROPERTYS---------------*/
+.gi-lvl5M-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.gi-lvl5M-2 {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.gi-lvl5M-3 {
+    grid-area: 14 / 1 / span 5 / span 1;
+}
+
+.gi-lvl5M-4 {
+    grid-area: 3 / 1 / span 11 / span 1;
+}
+
+.gi-lvl5M-5 {
+    grid-area: 19 / 1 / span 1 / span 1;
+}
+
+.gi-lvl5M-6 {
+    grid-area: 20 / 1 / span 1 / span 1;
+}
+/* ---------------GRID 6M PROPERTYS---------------*/
+.gi-lvl6M-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.gi-lvl6M-2 {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.gi-lvl6M-3 {
+    grid-area: 20 / 1 / span 5 / span 1;
+}
+
+.gi-lvl6M-4 {
+    grid-area: 3 / 1 / span 17 / span 1;
+}
+
+.gi-lvl6M-5 {
+    grid-area: 3 / 1 / span 1 / span 1;
+    display: none;
+}
+
+.gi-lvl6M-6 {
+    grid-area: 25 / 1 / span 1 / span 1;
+}
+/* ---------------GRID 5T PROPERTYS---------------*/
+.gi-lvl5T-1 {
+    grid-area: 1 / 1 / span 1 / span 5;
+}
+
+.gi-lvl5T-2 {
+    grid-area: 2 / 1 / span 1 / span 5;
+}
+
+.gi-lvl5T-3 {
+    grid-area: 3 / 1 / span 42 / span 1;
+}
+
+.gi-lvl5T-4 {
+    grid-area: 3 / 2 / span 42 / span 4;
+}
+
+.gi-lvl5T-5 {
+    grid-area: 45 / 1 / span 1 / span 1;
+}
+
+.gi-lvl5T-6 {
+    grid-area: 45 / 2 / span 1 / span 4;
+}
+/* ---------------GRID 6T PROPERTYS---------------*/
+.gi-lvl6T-1 {
+    grid-area: 1 / 1 / span 1 / span 10;
+}
+
+.gi-lvl6T-2 {
+    grid-area: 2 / 1 / span 1 / span 10;
+}
+
+.gi-lvl6T-3 {
+    grid-area: 3 / 1 / span 43 / span 3;
+}
+
+.gi-lvl6T-4 {
+    grid-area: 3 / 4 / span 26 / span 7;
+}
+
+.gi-lvl6T-5 {
+    grid-area: 29 / 4 / span 16 / span 7;
+}
+
+.gi-lvl6T-6 {
+    grid-area: 45 / 4 / span 1 / span 7;
+}
